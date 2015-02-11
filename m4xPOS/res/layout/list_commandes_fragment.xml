@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  
+    android:orientation="vertical"
+     >
+
+    <ListView
+        android:id="@+id/list_pays"
+        android:layout_width="match_parent"
+        android:layout_height="182dp"
+        android:layout_weight="4.12" >
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp" >
+
+        <EditText
+            android:id="@+id/editTextTotal"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingRight="35dip"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+        <Button 
+            android:id="@+id/crossIcon" 
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/ic_action_remove"
+            android:layout_marginRight="5dip"
+            android:layout_gravity="right|center_vertical"/>
+
+    </LinearLayout>
+
+    <LinearLayout 
+         android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:orientation="horizontal"
+            android:layout_weight="1"
+        >
+        <LinearLayout  
+                android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+        <Button
+            android:id="@+id/ButtonCheck"
+            android:drawableBottom="@drawable/ic_action_refresh"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.00"
+            android:text="Check"
+            />
+
+        <Button
+            android:id="@+id/buttonValidate"
+            android:layout_width="fill_parent"
+            android:drawableBottom="@drawable/ic_action_done"
+            android:layout_height="0dp"
+            android:layout_weight="1.00"
+            android:text="Validate" />
+  
+                    <Button
+            android:id="@+id/ButtonPurge"
+            android:layout_width="fill_parent"
+            android:drawableBottom="@drawable/ic_action_cancel"
+            android:layout_height="0dp"
+            android:layout_weight="1.00"
+            android:text="Clear" />         
+   </LinearLayout>
+<LinearLayout 
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+android:layout_weight="3"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        
+         >
+        <Button
+            android:id="@+id/Button01"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:text="1" />    
+        <Button
+            android:id="@+id/Button02"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:text="2" />  
+                    <Button
+            android:id="@+id/Button03"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:text="3" />  
+                    
+            <!--          
+                    <ToggleButton
+            android:id="@+id/ButtonQte"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:text="Qte" />   
+            --> 
+    </LinearLayout>
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        
+         >
+        <Button
+            android:id="@+id/Button04"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:text="4" />    
+        <Button
+            android:id="@+id/Button05"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:text="5" />  
+                    <Button
+            android:id="@+id/Button06"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:text="6" />  
+                   <!--   <ToggleButton
+            android:id="@+id/ButtonRem"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:text="Rms" />-->    
+    </LinearLayout>
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        
+         >
+        <Button
+            android:id="@+id/Button07"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:text="7" />    
+        <Button
+            android:id="@+id/Button08"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:text="8" />  
+                    <Button
+            android:id="@+id/Button09"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:text="9" />  
+                    <!--  <ToggleButton
+            android:id="@+id/ButtonPrix"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:textOff="Prix"
+            android:textOn="Prix"
+             />    -->
+    </LinearLayout>
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        
+         >
+          <Button
+            android:id="@+id/ButtonSoustract"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:text="-" />
+
+        <!--   <LinearLayout
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="1.00" >
+
+             <Button
+                 android:id="@+id/buttonSoustract"
+                 android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+                 android:text="-" />
+
+             <Button
+                android:id="@+id/ButtonAdd"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:text="+"  />
+
+         </LinearLayout>-->
+    
+        <Button
+            android:id="@+id/Button00"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:text="0" />  
+                    <Button
+            android:id="@+id/ButtonAdd"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:text="+" />  
+                   <!--   <Button
+            android:id="@+id/ButtonSupp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+
+            android:text="C" />-->    
+    </LinearLayout>
+</LinearLayout>
+ </LinearLayout>
+</LinearLayout>

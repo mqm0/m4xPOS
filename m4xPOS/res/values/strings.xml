@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">m4xPOS</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_data_base_manipulate">DataBaseManipulate</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_asynctask">Uploading</string>
+    <string name="title_activity_to_clock_in">Initializing</string>
+    <string name="lib">/home/m4x/Downloads/flareGet/Documents/Applications/commons-httpclient-3.1-rc1.jar</string>
+
+</resources>

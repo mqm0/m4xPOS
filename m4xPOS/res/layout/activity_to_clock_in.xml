@@ -1,0 +1,530 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Initializing" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical" >
+
+        
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="470dp" 
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:background="@drawable/actimel"
+                    android:layout_marginBottom="30dp" />
+                
+                <TextView
+                    android:id="@+id/TextView12"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="ACTIMEL" 
+                    android:gravity="center"/>
+
+                <EditText
+                    android:id="@+id/EditTextActimel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/actimelAdd"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:text="+"
+                    android:gravity="center" 
+                    android:layout_marginTop="20dp"/>
+
+                <Button
+                    android:id="@+id/actimelSous"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:text="-" 
+                    android:gravity="center"/>
+
+                
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:background="@drawable/danette"
+                    android:layout_marginBottom="30dp" />
+                
+                <TextView
+                    android:id="@+id/TextView11"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="DANETTE"
+                    android:gravity="center" />
+
+                <EditText
+                    android:id="@+id/EditTextDanette"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/danetteAdd"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:text="+"
+                    android:gravity="center" 
+                    android:layout_marginTop="20dp"/>
+
+                <Button
+                    android:id="@+id/danetteSous"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:text="-" 
+                    android:gravity="center"/>
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:background="@drawable/para228858"
+                    android:layout_marginBottom="30dp" />
+                
+                <TextView
+                    android:id="@+id/TextView10"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="ACTIVIA" 
+                    android:gravity="center"/>
+
+                <EditText
+                    android:id="@+id/EditTextActivia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                
+                <Button
+                    android:id="@+id/activiaAdd"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:text="+"
+                    android:gravity="center" 
+                    android:layout_marginTop="20dp"/>
+
+                <Button
+                    android:id="@+id/activiaSous"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:text="-" 
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:background="@drawable/veloute"
+                    android:layout_marginBottom="30dp" />
+                
+                <TextView
+                    android:id="@+id/TextView09"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="VELOUTE" 
+                    android:gravity="center"/>
+
+                <EditText
+                    android:id="@+id/EditTextVeloute"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                
+                <Button
+                    android:id="@+id/velouteAdd"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:text="+"
+                    android:gravity="center" 
+                    android:layout_marginTop="20dp"/>
+
+                <Button
+                    android:id="@+id/velouteSous"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:text="-" 
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:background="@drawable/president"
+                    android:layout_marginBottom="30dp" />
+                
+                <TextView
+                    android:id="@+id/TextView08"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="PRESIDENT" 
+                    android:gravity="center"/>
+
+                <EditText
+                    android:id="@+id/EditTextPresident"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/presidentAdd"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:text="+"
+                    android:gravity="center" 
+                    android:layout_marginTop="20dp"/>
+
+                <Button
+                    android:id="@+id/presidentSous"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:text="-" 
+                    android:gravity="center"/>
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:background="@drawable/labuchefondante"
+                    android:layout_marginBottom="30dp" />
+                
+                <TextView
+                    android:id="@+id/TextView07"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="LA BUCHE" 
+                    android:gravity="center"/>
+
+                <EditText
+                    android:id="@+id/EditTextLaBuche"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/bucheAdd"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:text="+"
+                    android:gravity="center" 
+                    android:layout_marginTop="20dp"/>
+
+                <Button
+                    android:id="@+id/bucheSous"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:text="-" 
+                    android:gravity="center"/>
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:background="@drawable/brique"
+                    android:layout_marginBottom="30dp" />
+                
+                <TextView
+                    android:id="@+id/TextView06"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="BRIQUE" 
+                    android:gravity="center"/>
+
+                <EditText
+                    android:id="@+id/EditTextBrique"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                
+                <Button
+                    android:id="@+id/briqueAdd"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:text="+"
+                    android:gravity="center" 
+                    android:layout_marginTop="20dp"/>
+
+                <Button
+                    android:id="@+id/briqueSous"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:text="-" 
+                    android:gravity="center"/>
+                
+            </LinearLayout>
+            
+            
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/activialait"
+                    android:layout_marginBottom="30dp" />
+                
+                <TextView
+                    android:id="@+id/TextView05"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="ACTIVIA LAIT" 
+                    android:gravity="center"/>
+
+                <EditText
+                    android:id="@+id/EditTextActiviaLait"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/activiaLaitAdd"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:text="+"
+                    android:gravity="center" 
+                    android:layout_marginTop="20dp"/>
+
+                <Button
+                    android:id="@+id/activiaLaitSous"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:text="-" 
+                    android:gravity="center"/>
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:background="@drawable/laitcandia"
+                    android:layout_marginBottom="30dp" />
+                
+                <TextView
+                    android:id="@+id/TextView04"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="CANDIA" 
+                    android:gravity="center"/>
+
+                <EditText
+                    android:id="@+id/EditTextCandia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/candiaAdd"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:text="+"
+                    android:gravity="center" 
+                    android:layout_marginTop="20dp"/>
+
+                <Button
+                    android:id="@+id/candiaSous"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:text="-" 
+                    android:gravity="center"/>
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="50dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/candychoco"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="30dp" />
+                
+                <TextView
+                    android:id="@+id/TextView03"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="CANDY" 
+                    android:gravity="center"/>
+
+                <EditText
+                    android:id="@+id/EditTextCandy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/candyAdd"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:text="+"
+                    android:gravity="center" 
+                    android:layout_marginTop="20dp"/>
+
+                <Button
+                    android:id="@+id/candySous"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:text="-" 
+                    android:gravity="center"/>
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" 
+                android:layout_marginRight="30dp">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/candiasilhouette"
+                    android:layout_marginBottom="30dp" />
+                
+                <TextView
+                    android:id="@+id/TextView02"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="SILOUHETTE" 
+                    android:gravity="center"/>
+
+                <EditText
+                    android:id="@+id/EditTextSilhouette"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/silhouetteAdd"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:text="+"
+                    android:gravity="center" 
+                    android:layout_marginTop="20dp"/>
+
+                <Button
+                    android:id="@+id/silhouetteSous"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:text="-" 
+                    android:gravity="center"/>
+                
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/initValidate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_action_done"
+                android:text="VALIDATE"
+                
+                android:textColor="#00FF6F" 
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListCommandesActivity" >
+
+    <fragment
+        android:id="@+id/list_pays_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+                android:layout_marginLeft="4px"
+                
+                android:layout_marginTop="4px"
+                android:layout_marginRight="2px"
+                android:layout_marginBottom="4px"
+        class="com.pofs.ListCommandesFragment" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/prevision_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+                android:layout_marginLeft="2px"
+                android:layout_marginTop="4px"
+                android:layout_marginRight="4px"
+                android:layout_marginBottom="4px"
+        class="com.pofs.ProductsFragment" >
+    </fragment>
+
+</LinearLayout>
